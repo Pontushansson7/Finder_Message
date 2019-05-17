@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MessagesDBModelStoreContainer" CdmEntityContainer="MessagesDBEntities">
+    <EntitySetMapping Name="Message">
+      <EntityTypeMapping TypeName="MessagesDBModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="SendingUserId" ColumnName="SendingUserId" />
+          <ScalarProperty Name="RecievingUserId" ColumnName="RecievingUserId" />
+          <ScalarProperty Name="Message1" ColumnName="Message" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="ServiceId" ColumnName="ServiceId" />
+          <ScalarProperty Name="ServiceTitle" ColumnName="ServiceTitle" />
+          <ScalarProperty Name="UserPicture" ColumnName="UserPicture" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
